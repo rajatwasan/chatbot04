@@ -1,7 +1,6 @@
 from pymongo import MongoClient
 
-MONGODB_URI = 'mongodb+srv://appAdmin:cB45KLzyPdV8NdG3@realto-stage.xg5kl.mongodb.net/'
-# MONGODB_URI = os.environ['mongodb+srv://appAdmin:cB45KLzyPdV8NdG3@realto-stage.xg5kl.mongodb.net/redev?retryWrites=true&w=majority&authMechanism=DEFAULT']
+MONGODB_URI = 'mongodb+srv://<username>:<password>@realto-stage.xg5kl.mongodb.net/'
 
 db = MongoClient(MONGODB_URI)
 
